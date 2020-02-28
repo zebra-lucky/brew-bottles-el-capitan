@@ -1,6 +1,7 @@
 os: osx
 language: ruby
 osx_image: xcode8
+sudo: required
 
 before_install:
 - brew update
