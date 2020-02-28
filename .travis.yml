@@ -3,5 +3,6 @@ language: ruby
 osx_image: xcode8
 sudo: required
 install:
+- brew untap homebrew/homebrew-versions
 - brew update -dv
 - brew install qt5
