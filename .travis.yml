@@ -2,5 +2,11 @@ os: osx
 language: ruby
 osx_image: xcode8
 sudo: required
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
 install:
+- brew update
 - brew install qt5
