@@ -4,5 +4,6 @@ osx_image: xcode8
 sudo: required
 install:
 - brew untap homebrew/homebrew-versions
-- brew update -dv
-- brew install qt5
+- brew update
+- brew tap zebra-lucky/qt4
+- brew install zebra-lucky/qt4/qt
